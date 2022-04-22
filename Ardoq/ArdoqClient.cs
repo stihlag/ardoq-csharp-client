@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.Http;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Ardoq.Models;
@@ -59,8 +60,7 @@ namespace Ardoq
         {
             get
             {
-                // TODO USE ASSEMBLY INFO. NOT SUPPORTED BY PORTABLE APIs
-                return "2.0.4";
+                return Assembly.GetExecutingAssembly().GetName().Version.ToString();
             }
         }
 
