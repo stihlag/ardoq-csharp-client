@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("ardoq-csharp-client")]
-[assembly: AssemblyDescription("API wrapper for the Ardoq public API")]
+[assembly: AssemblyTitle("ardoq-csharp-client-net6")]
+[assembly: AssemblyDescription("API wrapper for the Ardoq public API - .NET 6")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ardoq AS")]
-[assembly: AssemblyProduct("ardoq-csharp-client")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("ardoq-csharp-client-net6")]
+[assembly: AssemblyCopyright("Copyright © 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -35,5 +35,5 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("2.0.7")]
+[assembly: AssemblyVersion("3.0.0")]
 [assembly: AssemblyFileVersion("1.0.0")]
